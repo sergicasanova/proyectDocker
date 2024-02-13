@@ -1,16 +1,17 @@
-FROM node:14
+FROM node:19
+#-p para que la cree si no existe
+RUN mkdir -p /usr/src/app  
 
-RUN mkdir -p C:\Users\usuario\Desktop\DockerPracticaFinal\src
-
-WORKDIR C:\Users\usuario\Desktop\DockerPracticaFinal\src
+WORKDIR /usr/src/
 
 COPY package*.json ./
 
 RUN npm install
 
-COPY . .
+COPY . ./
+
+WORKDIR /usr/src/
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
-
+CMD ["npm", "run", "dev"]
