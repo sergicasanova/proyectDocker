@@ -26,3 +26,5 @@ npm i nodemon -D
 "dev": "nodemon src/index.js"
 #cambiamos el arranque de dockerfile
 CMD ["npm", "run", "dev"]
+
+![Aspose Words c75e130a-21e7-4df5-b850-c51009645119 005](https://github.com/sergicasanova/proyectDocker/assets/130445699/5c3cad70-249f-423a-a794-6cb8c63fb837)
