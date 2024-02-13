@@ -27,4 +27,10 @@ npm i nodemon -D
 #cambiamos el arranque de dockerfile
 CMD ["npm", "run", "dev"]
 
+Empezamos con la creación del repositorio y su consiguiente clonado en el escritorio:
+
 ![Aspose Words c75e130a-21e7-4df5-b850-c51009645119 005](https://github.com/sergicasanova/proyectDocker/assets/130445699/5c3cad70-249f-423a-a794-6cb8c63fb837)
+
+Y el clonado:
+
+![Aspose Words c75e130a-21e7-4df5-b850-c51009645119 006](https://github.com/sergicasanova/proyectDocker/assets/130445699/505551f9-8ddc-4085-b2cb-306ee3602c2e)
